@@ -1,0 +1,16 @@
+.wrapper{
+    max-width: 720px;
+    margin: 0 auto;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+}
+.right{
+    width: 100%;
+    text-align: center;
+}
+.left{
+    width: 100%;
+    text-align: center;
+}
