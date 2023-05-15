@@ -30,7 +30,7 @@ body{
 	;
 	gap: 1em;
 }
-.cards .left , .right , .tree {
+.cards .left , .right {
 	background-color: #e5e5e5;
 	border-radius: 1.1em;
 	padding: .8em;
@@ -50,6 +50,16 @@ body{
 	max-width: 7em;
 	border-radius: 1.1em;
 }
+.cards .version {
+	background-color: #c1c1c1;
+	width: 7em;
+	text-align: center;
+	color: rgb(97, 97, 97);
+	border-radius: 1em;
+	font-size: .7rem;
+	margin-top: .7em;
+	padding-bottom: .1em;
+}
 .cards h4 , p {
 	margin: 0;
 }
@@ -59,4 +69,12 @@ body{
 .cards a {
 	text-decoration: none;
 	color: black;
+}
+footer{
+	margin-top: 6.5em;
+	background-color: #e5e5e5;
+	padding: 8em;
+}
+footer p {
+	text-align: center;
 }
