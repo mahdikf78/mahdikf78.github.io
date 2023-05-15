@@ -24,19 +24,27 @@ body{
 	margin: 0 0 .3em .3em ;
 }
 .cards {
-	display: flex;
+	display: grid;
+	grid-template-areas: 
+	'left right'
+	;
 	gap: 1em;
 }
-.cards .left , .right {
+.cards .left , .right , .tree {
 	background-color: #e5e5e5;
 	border-radius: 1.1em;
 	padding: .8em;
-	width: 50%;
 
 	display: flex;
 	flex-direction: column;
 	gap: 10em;
 	justify-content: space-between;
+}
+.cards .left {
+	grid-area: left;
+}
+.cards .right {
+	grid-area: right;
 }
 .cards img {
 	max-width: 7em;
