@@ -78,3 +78,16 @@ footer{
 footer p {
 	text-align: center;
 }
+footer .social {
+	display: flex;
+	justify-content: center;
+	gap: .4em;
+	margin-top: 3em;
+}
+footer .social img {
+	max-width: 23px;
+	transition: transform 1s ease;
+}
+footer .social img:hover {
+	transform: rotateZ(360deg);
+}
